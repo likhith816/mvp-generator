@@ -1,5 +1,9 @@
 # 🚀 MVP Generator - AI-Powered Startup Tool
 
+[![Build and Deploy](https://github.com/likhith816/mvp-generator/actions/workflows/deploy.yml/badge.svg)](https://github.com/likhith816/mvp-generator/actions/workflows/deploy.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node Version](https://img.shields.io/badge/node-18%2B-brightgreen)](https://nodejs.org/)
+
 An intelligent MVP (Minimum Viable Product) generator that helps entrepreneurs and developers create comprehensive business plans and prototypes using AI technology.
 
 ## ✨ Features
@@ -65,15 +69,42 @@ An intelligent MVP (Minimum Viable Product) generator that helps entrepreneurs a
 
 ## 📦 Deployment
 
-### Quick Deploy to Vercel
+[![Deployment Status](https://github.com/likhith816/mvp-generator/actions/workflows/deploy.yml/badge.svg)](https://github.com/likhith816/mvp-generator/actions/workflows/deploy.yml)
+
+### 🚀 Automated Deployment
+
+This repository includes automated CI/CD workflows for seamless deployment.
+
+**Quick Start:**
+1. Push to `main` branch - automatically builds and deploys
+2. Check deployment status in GitHub Actions tab
+3. View live site once deployment completes
+
+📖 **[Complete Deployment Setup Guide →](./DEPLOYMENT_SETUP.md)**
+
+### Quick Deploy Commands
+
+**Vercel:**
 ```bash
 npm run deploy:vercel
+```
+
+**Netlify:**
+```bash
+npm run deploy:netlify
+```
+
+**Validation Check:**
+```bash
+./check-deployment.sh
 ```
 
 ### Manual Deployment
 1. Build the project: `npm run build`
 2. Deploy `dist/` folder to any hosting service
 3. Set environment variables on your hosting platform
+
+📚 **More Options:** See [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md) and [QUICK_DEPLOY.md](./QUICK_DEPLOY.md)
 
 ## 🧪 Test Accounts
 
