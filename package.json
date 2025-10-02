@@ -10,7 +10,9 @@
     "deploy:vercel": "npm run build && npx vercel --prod",
     "deploy:netlify": "npm run build && npx netlify deploy --prod --dir=dist",
     "deploy:convex": "npx convex deploy --prod",
-    "deploy:build": "npm run build && npm run deploy:convex"
+    "deploy:build": "npm run build && npm run deploy:convex",
+    "deploy:check": "./check-deployment.sh",
+    "setup:deploy": "./setup-deployment.sh"
   },
   "dependencies": {
     "@google/genai": "^1.19.0",

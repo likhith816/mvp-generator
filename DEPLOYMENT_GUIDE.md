@@ -2,6 +2,10 @@
 
 This guide covers multiple deployment options for your React + Convex MVP Generator application.
 
+> **🎯 Quick Start**: For automated deployment setup, see [DEPLOYMENT_SETUP.md](./DEPLOYMENT_SETUP.md)
+>
+> **📊 Status**: Check current deployment status in [DEPLOYMENT_STATUS.md](./DEPLOYMENT_STATUS.md)
+
 ## Prerequisites
 
 Before deploying, ensure you have:
