@@ -71,6 +71,8 @@ An intelligent MVP (Minimum Viable Product) generator that helps entrepreneurs a
 
 [![Deployment Status](https://github.com/likhith816/mvp-generator/actions/workflows/deploy.yml/badge.svg)](https://github.com/likhith816/mvp-generator/actions/workflows/deploy.yml)
 
+> 🎉 **Ready to deploy!** See [GETTING_STARTED_DEPLOY.md](./GETTING_STARTED_DEPLOY.md) for complete setup guide.
+
 ### 🚀 Automated Deployment
 
 This repository includes automated CI/CD workflows for seamless deployment.
@@ -80,7 +82,11 @@ This repository includes automated CI/CD workflows for seamless deployment.
 2. Check deployment status in GitHub Actions tab
 3. View live site once deployment completes
 
-📖 **[Complete Deployment Setup Guide →](./DEPLOYMENT_SETUP.md)**
+📖 **Guides:**
+- [🎯 Getting Started with Deployment](./GETTING_STARTED_DEPLOY.md) - Start here!
+- [⚙️ Automated Deployment Setup](./DEPLOYMENT_SETUP.md)
+- [📋 Quick Reference](./DEPLOY_REFERENCE.md)
+- [🔧 Troubleshooting](./TROUBLESHOOTING.md)
 
 ### Quick Deploy Commands
 
@@ -96,7 +102,7 @@ npm run deploy:netlify
 
 **Validation Check:**
 ```bash
-./check-deployment.sh
+npm run deploy:check
 ```
 
 ### Manual Deployment
