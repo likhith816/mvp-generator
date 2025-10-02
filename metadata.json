@@ -1,0 +1,5 @@
+{
+  "name": "finish",
+  "description": "A SaaS application that uses AI to generate a complete Minimum Viable Product (MVP) plan from a single idea prompt. It includes role-based access control, dashboards for users, admins, and superadmins, and a detailed, page-by-page viewer for the generated MVP plans.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generating Ideas into an MVP</title>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#4f46e5',
+              'secondary': '#10b981',
+              'background': '#111827', // dark-gray-900
+              'surface': '#1f2937',    // dark-gray-800
+              'on-surface': '#f9fafb', // off-white-50
+              'on-surface-variant': '#9ca3af', // gray-400
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.19.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.1",
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.0",
+    "@stackblitz/sdk": "https://aistudiocdn.com/@stackblitz/sdk@^1.9.0",
+    "jszip": "https://aistudiocdn.com/jszip@^3.10.1",
+    "@jest/globals": "https://aistudiocdn.com/@jest/globals@^30.1.2",
+    "@testing-library/react": "https://aistudiocdn.com/@testing-library/react@^16.0.0",
+    "@testing-library/jest-dom": "https://aistudiocdn.com/@testing-library/jest-dom@^6.4.8",
+    "@testing-library/user-event": "https://aistudiocdn.com/@testing-library/user-event@^14.5.2"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background text-on-surface">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
